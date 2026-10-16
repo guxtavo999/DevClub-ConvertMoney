@@ -28,4 +28,22 @@ function convertValues() {
     } ).format(inputCurrencyValue);
 }
 
+function changeCurrency(){
+    const currencyName = document.getElementById("currency-name")
+    const currencyImage = document.querySelector(".currency-img") 
+
+    if (CurrencySelect.value == "dolar"){
+        currencyName.innerHTML = "Dólar americano"
+        currencyImage.src = "./assets/dolar.png"
+    }
+
+    if (CurrencySelect.value == "euro"){
+        currencyName.innerHTML = "Euro"
+        currencyImage.src = "./assets/euro.png"
+    }
+    
+    convertValues()
+}
+
+CurrencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues);
