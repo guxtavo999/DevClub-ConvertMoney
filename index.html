@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevClub Convert Money</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <script src="./script.js" defer></script>
 </head>
+
 <body>
     <img src="./assets/logo.gif" alt="Money Gif" class="logo">
     <main>
@@ -17,6 +20,10 @@
             Converter <b>de</b>
             <select>
                 <option> R$ Real Brasileiro </option>
+                <option> US$ Dólar americano </option>
+                <option> € Euro </option>
+                <option> £ Libra </option>
+                <option> ₿ Bitcoin </option>
             </select>
         </label>
 
@@ -25,6 +32,8 @@
             <select class="currency-select">
                 <option value="dolar"> US$ Dólar americano </option>
                 <option value="euro"> € Euro </option>
+                <option value="libra"> £ Libra </option>
+                <option value="bitcoin"> ₿ Bitcoin </option>
             </select>
         </label>
 
@@ -42,15 +51,17 @@
                 <p class="currency-value-to-convert"> R$ 0,00</p>
             </div>
 
-            <img  class="arrow-img" src="./assets/arrow.png" alt="Arrow" class="arrow">
+            <img class="arrow-img" src="./assets/arrow.png" alt="Arrow" class="arrow">
 
             <div class="currency-box">
                 <img id="eua-img" src="./assets/dolar.png" alt="EUA logo" class="currency-img">
                 <p class="currency" id="currency-name">Dólar americano</p>
                 <p class="currency-value"> US$ 0,00</p>
             </div>
+
         </section>
     </main>
 
 </body>
+
 </html>

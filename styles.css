@@ -1,112 +1,124 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    outline: none;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+   outline: none;
 }
 
- body {
-    background-color: #8a51fc;
- }
+body {
+   background-color: #8a51fc;
+}
 
- main {
-    width: 375px;
-    background-color: #f4f4f4;
-    border-radius: 20px;
-    margin: 0px auto 40px;
-    padding: 44px 24px 23px;
- }
+main {
+   width: 375px;
+   background-color: #f4f4f4;
+   border-radius: 20px;
+   margin: 0px auto 40px;
+   padding: 44px 24px 23px;
+}
 
- .logo {
-    width: 300px;
-    display: block; 
-    margin: 20px auto;
-    /* PARA CENTRALIZAR A IMAGEM SEMPRE DEVEMOS COLOCAR O DISPLAY COMO BLOCK E AS MARGIN COMO AUTO */
- }
+.logo {
+   width: 300px;
+   display: block;
+   margin: 20px auto;
+   /* PARA CENTRALIZAR A IMAGEM SEMPRE DEVEMOS COLOCAR O DISPLAY COMO BLOCK E AS MARGIN COMO AUTO */
+}
 
 label {
-    color: #777777;
-    font-weight: 400;
-    font-size: 14px;
+   color: #777777;
+   font-weight: 400;
+   font-size: 14px;
 }
 
-select, input {
-    background-color: #ffffff;
-    border: 1px solid #bbbbbb;
-    border-radius: 4px;
-    height: 48px;
-    width: 100%;
-    margin-bottom: 24px;
-    appearance: none;
-    padding-left: 18px;
-    font-weight: 700;
-    font-size: 16px;
-    color: #555555;
-    cursor: pointer;
+select,
+input {
+   background-color: #ffffff;
+   border: 1px solid #bbbbbb;
+   border-radius: 4px;
+   height: 48px;
+   width: 100%;
+   margin-bottom: 24px;
+   appearance: none;
+   padding-left: 18px;
+   font-weight: 700;
+   font-size: 16px;
+   color: #555555;
+   cursor: pointer;
 }
 
 button {
-    background-color: #772fd3;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    height: 48px;
-    width: 100%;
-    font-weight: 700;
-    font-size: 16px;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
+   background-color: #772fd3;
+   color: #ffffff;
+   border: none;
+   border-radius: 5px;
+   height: 48px;
+   width: 100%;
+   font-weight: 700;
+   font-size: 16px;
+   font-size: 18px;
+   font-weight: 700;
+   cursor: pointer;
 }
 
- button:hover {
-    opacity: 0.8;
- }
+button:hover {
+   opacity: 0.8;
+}
 
- button:active {
-    opacity: 0.6;
- }
+button:active {
+   opacity: 0.6;
+}
 
- section {
-    border: 1px solid #772fd3;
-    border-radius: 20px;
-    margin-top: 36px;
-    padding: 12px;
+section {
+   border: 1px solid #772fd3;
+   border-radius: 20px;
+   margin-top: 36px;
+   padding: 12px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
- .arrow-img {
-    margin: 15px 0;
- }
+.arrow-img {
+   margin: 15px 0;
+}
 
- .currency-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
- }
+.currency-box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 4px;
+}
 
- .currency {
-    color: #777777;
-    font-size: 14px;
- }
+.currency {
+   color: #777777;
+   font-size: 14px;
+}
 
- .currency-value, .currency-value-to-convert {
-    color: #555555;
-    font-size: 20px;
-    font-weight: 700;
- }
+.currency-value,
+.currency-value-to-convert {
+   color: #555555;
+   font-size: 20px;
+   font-weight: 700;
+}
 
- .real {
-    width: 44px;
-    height: 44px;
- }
+.real {
+   width: 44px;
+   height: 44px;
+}
 
- #eua-img {
-    width: 44px;
-    height: 44px;
- }
+#eua-img {
+   width: 44px;
+   height: 44px;
+}
+
+.libra {
+   width: 44px;
+   height: 44px;
+}
+
+.bitcoin {
+   width: 44px;
+   height: 44px;
+}
